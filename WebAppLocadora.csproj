@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Model\Movie.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Movies\" />
+  </ItemGroup>
+
+</Project>
